@@ -13,11 +13,18 @@ public class CollisionHandler : MonoBehaviour
     AudioSource audioSource;
     
     bool isTrasitioning = false;
+    bool isCollisionDisabled = false;
+
     void Start() {
         audioSource = GetComponent<AudioSource>();
     }
+
+    void Update() {
+        ReadDebugKeys();
+    }
+
     private void OnCollisionEnter(Collision other) {
-        if (isTrasitioning) { return; }
+        if (isTrasitioning || isCollisionDisabled) { return; }
         switch (other.gameObject.tag)
         {
             case "Friendly":
@@ -33,7 +40,19 @@ public class CollisionHandler : MonoBehaviour
                 StartDieSequence();
                 break;
         }
-        
+
+    }
+
+    void ReadDebugKeys()
+    {
+        if (Input.GetKey(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        else if (Input.GetKey(KeyCode.C))
+        {
+            isCollisionDisabled = !isCollisionDisabled; // toggle collision
+        }
     }
     void StartSuccessSequence()
     {
