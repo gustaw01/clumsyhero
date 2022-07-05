@@ -422,14 +422,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1584955031, guid: 7cd69404f06a54d43b11dacc8ed8ef18, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1584955031, guid: 7cd69404f06a54d43b11dacc8ed8ef18, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
     - target: {fileID: 3092736649267874134, guid: 7cd69404f06a54d43b11dacc8ed8ef18, type: 3}
       propertyPath: m_Name
       value: Hero (Player)
