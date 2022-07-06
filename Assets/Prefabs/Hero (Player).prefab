@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrustValue: 1000
-  rotationThrust: 100
+  rotationThrust: 250
   scream: {fileID: 8300000, guid: 1eab289cbbf3b8a46a2303764c35a2a6, type: 3}
   leftLegParticles: {fileID: 1352225367129622670}
   rightLegParticles: {fileID: 6536703235696462610}
