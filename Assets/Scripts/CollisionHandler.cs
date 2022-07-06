@@ -30,6 +30,9 @@ public class CollisionHandler : MonoBehaviour
             case "Friendly":
                 Debug.Log("It's a friend, go on!");
                 break;
+            case "Sky":
+                Debug.Log("Not so high!");
+                break;
             case "Finish":
                 StartSuccessSequence();
                 break;
