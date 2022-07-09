@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/One Alien.unity
     guid: e22f584c0b3120b499d97d66d93f1898
+  - enabled: 1
+    path: Assets/Scenes/Alien Invasion.unity
+    guid: 57cd6a181d5fa774e90f50d12f89afac
+  - enabled: 1
+    path: Assets/Scenes/Flying End.unity
+    guid: 9cb9e57f6a05449469b44219ff33d86c
   m_configObjects: {}
