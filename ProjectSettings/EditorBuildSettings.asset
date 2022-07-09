@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Under.unity
     guid: 690bf6de67cafcc40a0059f1921af421
+  - enabled: 1
+    path: Assets/Scenes/One Alien.unity
+    guid: e22f584c0b3120b499d97d66d93f1898
   m_configObjects: {}
