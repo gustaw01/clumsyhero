@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Flying End.unity
     guid: 9cb9e57f6a05449469b44219ff33d86c
+  - enabled: 1
+    path: Assets/Scenes/Landing In Base.unity
+    guid: 58d9c605f5c2b8e4aa1d407fcfe0d79f
   m_configObjects: {}
